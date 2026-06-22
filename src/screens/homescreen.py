@@ -15,7 +15,7 @@ def homescreen():
           
           st.markdown("<h2 style='color:#000080;'>I'm Student</h2>", unsafe_allow_html=True)
           st.image("https://i.ibb.co/844D9Lrt/mascot-student.png", width=120)
-          if st.button('Student Portal', type='primary', icon=':material/arrow_outward:,icon_position='right'):
+          if st.button('Student Portal', type='primary', icon=':material/arrow_outward:',icon_position='right'):
             st.session_state['login_type']='Student'
             st.rerun()
     with col2:

@@ -25,12 +25,39 @@ def style_background_dashboard():
         """
         <style>
         .stApp {
-            background-color: #5865F2 !important;
+            background-color: #E0E3FF !important;
         }
+        /* Label text */
+    .stTextInput label p {
+        color: black !important;
+        font-weight: 600;
+    }
+
+    /* Input text */
+    .stTextInput input {
+        color: white !important;
+        background-color: #1f1f2e !important;
+    }
+
+    /* Placeholder text */
+    .stTextInput input::placeholder {
+        color: #c7c7c7 !important;
+    }
+
+    /* Password eye icon */
+    .st-emotion-cache-1umgz6k {
+        color: white !important;
+    }
+
+
+
         </style>
         """,
         unsafe_allow_html=True
     )
+
+   
+
 
 
 def style_base_layout():
