@@ -1,85 +1,66 @@
 import streamlit as st
 
 
-def style_background_home():
-    st.markdown(
-        """
-        <style>
-        .stApp {
-            background-color: #5865F2 !important;
-        }
 
-        .stApp div[data-testid="stColumn"]{
-                    background-color:#E0E3FF !important;
+def style_background_home():
+
+    st.markdown("""
+        <style>
+
+                .stApp {
+                    background: #5865F2 !important;
+                }
+
+                .stApp div[data-testid="stColumn"]{
+                    background-color:#99A2FF !important;
                     padding:2.5rem !important;
                     border-radius: 5rem !important;
                     }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+        </style>  
 
+                """
+            ,unsafe_allow_html=True)
+    
 
 def style_background_dashboard():
-    st.markdown(
-        """
+
+    st.markdown("""
         <style>
-        .stApp {
-            background-color: #E0E3FF !important;
-        }
-        /* Label text */
-    .stTextInput label p {
-        color: black !important;
-        font-weight: 600;
-    }
 
-    /* Input text */
-    .stTextInput input {
-        color: white !important;
-        background-color: #1f1f2e !important;
-    }
+                .stApp {
+                    background: #99A2FF !important;
+                }
 
-    /* Placeholder text */
-    .stTextInput input::placeholder {
-        color: #c7c7c7 !important;
-    }
+        </style>  
 
-    /* Password eye icon */
-    .st-emotion-cache-1umgz6k {
-        color: white !important;
-    }
+                """
+            ,unsafe_allow_html=True)
+    
 
-
-
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-   
-
-
+    
 
 def style_base_layout():
-        st.markdown(
-            """
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
-                @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+# asdasd
+    st.markdown("""
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-                #MainMenu, footer, header {
-                    visibility: hidden;
-                }
-                    
-                .block-container {
-                    padding-top:1.5rem !important;    
-                }
+                
+         
+            
+            #MainMenu, footer, header {
+                visibility: hidden;
+            }
+                
+            .block-container {
+                padding-top:1.5rem !important;    
+            }
 
-                h1 {
-               
+            h1 {
                 font-family: 'Climate Crisis', sans-serif !important;
                 font-size: 3.5rem !important;
-                line-height:1.1 1important;
+                line-height:1.1 !important;
                 margin-bottom:0rem !important;
             }
                 
@@ -91,11 +72,25 @@ def style_base_layout():
                 margin-bottom:0rem !important;
             }
                 
-            h3, h4, p {
-                font-family: 'Outfit', sans-serif;    
+             h4 {
+                font-family: 'Outfit', sans-serif; 
+                color:#F9F6EE !important;
             }
+                p{
+                font-family: 'Outfit', sans-serif; 
+                color:#F9F6EE !important;
+                }
+            h3{
+                font-family: 'Outfit', sans-serif; 
+                color:#28282B !important;
+            }
+            #manage-subjects{
+                color:#28282B !important;}
                 
-
+            #your-enrolled-subjects{
+                color:#28282B !important;
+            }
+           
             button{
                 border-radius: 1.5rem !important;
                 background-color: #5865F2 !important;
@@ -125,9 +120,11 @@ def style_base_layout():
 
             button:hover{
                 transform :scale(1.05)}
+        </style>  
+
+                """
+            ,unsafe_allow_html=True)
+    
 
 
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
+

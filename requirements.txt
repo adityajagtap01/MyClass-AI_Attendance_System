@@ -1,19 +1,15 @@
-
-#libraries
-numpy 
+streamlit
+numpy
 pandas
-
-
-# FACE RECONGINATION
-sckit-learn   #can be used for classification purpose
-dlib-bin       #face recognition
+scikit-learn
+dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
 setuptools<70.0.0
-
 supabase
 bcrypt
-
 segno
 pillow
 
-streamlitpip
+Resemblyzer
+librosa
+
