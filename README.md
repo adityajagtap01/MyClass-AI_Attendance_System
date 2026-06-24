@@ -182,17 +182,3 @@ python app.py
 
 ---
 
-## 👨‍💻 Developed By
-
-**Aditya Jagtap**
-
-Second Year Engineering Student  
-Passionate about AI, Machine Learning, and Full Stack Development.
-
----
-
-## 📜 License
-
-This project is developed for educational and learning purposes.
-
-© 2026 MyClass – AI Attendance System
